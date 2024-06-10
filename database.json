@@ -1,6 +1,6 @@
 {
   "protectedResources": {
-    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "users": ["POST", "PUT", "PATCH", "DELETE"],
     "products": ["POST", "PUT", "PATCH", "DELETE"]
   },
   "users": [
@@ -29,52 +29,86 @@
   "products": [
     {
       "id": 1,
-      "category": "Mates",
-      "name": "Mate Imperial",
+      "category": "Termos",
+      "name": "Termo Club Atletico Colon De Santa Fe",
+      "description": "El unico campeon de la ciudad",
       "price": 40000,
       "image": "https://dcdn.mitiendanube.com/stores/154/782/products/termo-con-funda-colon-chivil1-35b4d0f8bc339c5bcb15689091133982-480-0.jpg"
     },
     {
       "id": 2,
       "category": "Termos",
-      "name": "Termo Stanley",
+      "name": "Termo Club Atletico Rosario Bentral",
+      "description": "Sina",
       "price": 40000,
       "image": "https://www.lumilagro.com.ar/wp-content/uploads/2023/04/Copia-de-termo-central-0.jpg"
     },
     {
       "id": 3,
-      "category": "Mochilas",
-      "name": "Mochila Matera",
+      "category": "Termos",
+      "name": "Termo Club Atletico River Gey",
+      "description": "Mudomental",
       "price": 40000,
       "image": "https://dcdn.mitiendanube.com/stores/003/377/186/products/river_3-removebg-preview-066bfa6ff2b158fddf17118921003261-480-0.png"
     },
     {
       "id": 4,
-      "category": "Bombillas",
-      "name": "Bombilla",
+      "category": "Mochilas",
+      "name": "Mochila matera de cuero",
+      "description": "",
       "price": 40000,
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nuevoemporio.com%2Fsearch%2Fpage%2F2%2F%3Fq%3DTermo&psig=AOvVaw3YkYaCpBMqhdS1mIxxpGHV&ust=1718058011973000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKD3xv_Gz4YDFQAAAAAdAAAAABAE"
+      "image": "https://estiloaustral.com/wp-content/uploads/2023/03/MATERA003-PORTATERMO-LISO-DE-CUERO1.png.webp"
     },
     {
       "id": 5,
-      "category": "Bombillas",
-      "name": "Bombilla",
+      "category": "Mochilas",
+      "name": "Mochila matera de ddsadsa",
+      "description": "",
       "price": 40000,
-      "image": "img"
+      "image": "https://jotamates.com/wp-content/uploads/2023/09/Rap-Negro2.png"
     },
     {
       "id": 6,
-      "category": "Bombillas",
-      "name": "Bombilla",
+      "category": "Mates",
+      "name": "Mate imperial interior de acero inoxidable",
+      "description": "Base de alpaca",
       "price": 40000,
-      "image": "img"
+      "image": "https://pampasway.com/wp-content/uploads/2023/08/MATE0093-_MATE-IMPERIAL-CON-VIROLA-Y-BASE-ALPACA-_YALA_2.png"
     },
     {
       "id": 7,
+      "category": "Mates",
+      "name": "Mate camionero",
+      "description": "Algarrobo",
+      "price": 40000,
+      "image": "https://estiloaustral.com/wp-content/uploads/2023/03/MATE0052-MATE-CAMIONERO-URUGUAYO-1.png"
+    },
+    {
+      "id": 8,
+      "category": "Mates",
+      "name": "Mate Stanley",
+      "description": "",
+      "price": 40000,
+      "image": "https://stanleypm.vtexassets.com/arquivos/ids/156047/image3.jpg?v=637980917986870000"
+    },
+    {
+      "id": 9,
+      "category": "Bombillas",
+      "name": "Bombilla de alpaca",
+      "description": "",
+      "price": 40000,
+      "image": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/7245/21009/bombilla-alpaka-rulo-de-flores-19cm-filtro-cuchara__56399.1664812286.png?c=2"
+    },
+    {
+      "id": 10,
       "category": "Bombillas",
       "name": "Bombilla",
+      "description": "",
       "price": 40000,
-      "image": "img"
+      "image": "https://pampasway.com/wp-content/uploads/2023/05/BOMB017-BOMBILLA-ALPACA-COQUITO-PICO-DE-LORO.png"
     }
-  ]
+  ],
+  "purchaseHistory": [],
+  "salesHistory": [],
+  "cart": []
 }
