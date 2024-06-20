@@ -1,7 +1,7 @@
 {
   "protectedResources": {
-    "users": ["POST", "PUT", "PATCH", "DELETE"],
-    "products": ["POST", "PUT", "PATCH", "DELETE"]
+    "users": [],
+    "products": []
   },
   "users": [
     {
@@ -16,7 +16,8 @@
       "username": "Valen",
       "email": "valencueto@gmail.cm",
       "password": "1234",
-      "userType": "seller"
+      "userType": "seller",
+      "productsForSale": []
     },
     {
       "id": 3,
@@ -24,31 +25,43 @@
       "email": "Santi@gmail.com",
       "password": "4321",
       "userType": "client"
+    },
+    {
+      "id": 4,
+      "user": "nico",
+      "email": "nico@gmail.com",
+      "password": "2004",
+      "userType": "client",
+      "createdAt": 1718059618463,
+      "modifiedAt": 1718059618463
+    },
+    {
+      "id": 5,
+      "user": "Miguel",
+      "email": "miguelito@gmail.com",
+      "password": "river912",
+      "userType": "client",
+      "createdAt": 1718060550510,
+      "modifiedAt": 1718060550510
+    },
+    {
+      "id": 6,
+      "user": "cabra",
+      "email": "cabra@gmail.com",
+      "password": "00",
+      "userType": "seller",
+      "createdAt": 1718419683278,
+      "modifiedAt": 1718419683278
     }
   ],
   "products": [
-    {
-      "id": 1,
-      "category": "Termos",
-      "name": "Termo Club Atletico Colon De Santa Fe",
-      "description": "El unico campeon de la ciudad",
-      "price": 40000,
-      "image": "https://dcdn.mitiendanube.com/stores/154/782/products/termo-con-funda-colon-chivil1-35b4d0f8bc339c5bcb15689091133982-480-0.jpg"
-    },
-    {
-      "id": 2,
-      "category": "Termos",
-      "name": "Termo Club Atletico Rosario Bentral",
-      "description": "Sina",
-      "price": 40000,
-      "image": "https://www.lumilagro.com.ar/wp-content/uploads/2023/04/Copia-de-termo-central-0.jpg"
-    },
     {
       "id": 3,
       "category": "Termos",
       "name": "Termo Club Atletico River Gey",
       "description": "Mudomental",
       "price": 40000,
+      "sellerId": 2,
       "image": "https://dcdn.mitiendanube.com/stores/003/377/186/products/river_3-removebg-preview-066bfa6ff2b158fddf17118921003261-480-0.png"
     },
     {
@@ -57,6 +70,7 @@
       "name": "Mochila matera de cuero",
       "description": "",
       "price": 40000,
+      "sellerId": 6,
       "image": "https://estiloaustral.com/wp-content/uploads/2023/03/MATERA003-PORTATERMO-LISO-DE-CUERO1.png.webp"
     },
     {
@@ -65,6 +79,7 @@
       "name": "Mochila matera de ddsadsa",
       "description": "",
       "price": 40000,
+      "sellerId": 2,
       "image": "https://jotamates.com/wp-content/uploads/2023/09/Rap-Negro2.png"
     },
     {
@@ -73,6 +88,7 @@
       "name": "Mate imperial interior de acero inoxidable",
       "description": "Base de alpaca",
       "price": 40000,
+      "sellerId": 6,
       "image": "https://pampasway.com/wp-content/uploads/2023/08/MATE0093-_MATE-IMPERIAL-CON-VIROLA-Y-BASE-ALPACA-_YALA_2.png"
     },
     {
@@ -81,34 +97,157 @@
       "name": "Mate camionero",
       "description": "Algarrobo",
       "price": 40000,
+      "sellerId": 2,
       "image": "https://estiloaustral.com/wp-content/uploads/2023/03/MATE0052-MATE-CAMIONERO-URUGUAYO-1.png"
     },
     {
-      "id": 8,
       "category": "Mates",
-      "name": "Mate Stanley",
-      "description": "",
-      "price": 40000,
-      "image": "https://stanleypm.vtexassets.com/arquivos/ids/156047/image3.jpg?v=637980917986870000"
+      "name": "MATE PERSONALIZADO",
+      "description": "INCREIBLE",
+      "price": "30000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBGy1qEBSoXKIOTCpL2dsY-6_AcwNjkSFoCQ&s",
+      "createdAt": 1718207542341,
+      "modifiedAt": 1718207542341,
+      "id": 11,
+      "sellerId": 2
     },
     {
-      "id": 9,
-      "category": "Bombillas",
-      "name": "Bombilla de alpaca",
-      "description": "",
-      "price": 40000,
-      "image": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/7245/21009/bombilla-alpaka-rulo-de-flores-19cm-filtro-cuchara__56399.1664812286.png?c=2"
+      "category": "Mates",
+      "name": "MATE HERMOSO",
+      "description": "MATE FULL MIGUEL 4K HD",
+      "price": "12000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LlL8KOwmIg0ciH0NhMaoQ9IskLsZ2LbE_g&s",
+      "createdAt": 1718234679869,
+      "modifiedAt": 1718234679869,
+      "id": 12,
+      "sellerId": 6
     },
     {
-      "id": 10,
       "category": "Bombillas",
-      "name": "Bombilla",
-      "description": "",
-      "price": 40000,
-      "image": "https://pampasway.com/wp-content/uploads/2023/05/BOMB017-BOMBILLA-ALPACA-COQUITO-PICO-DE-LORO.png"
+      "name": "BOMBILLA",
+      "description": "AD",
+      "price": "4000",
+      "image": "data:image/jpeg;base64,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",
+      "createdAt": 1718424703118,
+      "modifiedAt": 1718424703118,
+      "id": 16,
+      "sellerId": 6
     }
   ],
-  "purchaseHistory": [],
-  "salesHistory": [],
-  "cart": []
+  "cart": [],
+  "order": [
+    {
+      "items": [
+        {
+          "category": "Termos",
+          "name": "TERMO STANLEY",
+          "description": "ATR",
+          "price": "50000",
+          "image": "data:image/jpeg;base64,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",
+          "createdAt": 1718234735267,
+          "modifiedAt": 1718234735267,
+          "id": 13,
+          "sellerId": 6,
+          "quantity": 1
+        }
+      ],
+      "date": "2024-06-17T00:24:34.743Z",
+      "buyerId": 4,
+      "createdAt": 1718583874748,
+      "modifiedAt": 1718583874748,
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "category": "Mates",
+          "name": "MATE PERSONALIZADO",
+          "description": "INCREIBLE",
+          "price": "30000",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBGy1qEBSoXKIOTCpL2dsY-6_AcwNjkSFoCQ&s",
+          "createdAt": 1718207542341,
+          "modifiedAt": 1718207542341,
+          "id": 11,
+          "sellerId": 4,
+          "quantity": 1
+        }
+      ],
+      "date": "2024-06-20T15:53:33.180Z",
+      "buyerId": 4,
+      "createdAt": 1718898813185,
+      "modifiedAt": 1718898813185,
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "category": "Bombillas",
+          "name": "BOMBILLA",
+          "description": "AD",
+          "price": "4000",
+          "image": "data:image/jpeg;base64,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",
+          "createdAt": 1718424703118,
+          "modifiedAt": 1718424703118,
+          "id": 16,
+          "sellerId": 4,
+          "quantity": 1
+        }
+      ],
+      "date": "2024-06-20T15:58:19.412Z",
+      "buyerId": 4,
+      "createdAt": 1718899099417,
+      "modifiedAt": 1718899099417,
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "id": 4,
+          "category": "Mochilas",
+          "name": "Mochila matera de cuero",
+          "description": "",
+          "price": 40000,
+          "sellerId": 4,
+          "image": "https://estiloaustral.com/wp-content/uploads/2023/03/MATERA003-PORTATERMO-LISO-DE-CUERO1.png.webp",
+          "quantity": 1
+        }
+      ],
+      "date": "2024-06-20T15:59:49.229Z",
+      "buyerId": 4,
+      "createdAt": 1718899189235,
+      "modifiedAt": 1718899189235,
+      "id": 4
+    },
+    {
+      "items": [
+        {
+          "id": 3,
+          "category": "Termos",
+          "name": "Termo Club Atletico River Gey",
+          "description": "Mudomental",
+          "price": 40000,
+          "sellerId": 4,
+          "image": "https://dcdn.mitiendanube.com/stores/003/377/186/products/river_3-removebg-preview-066bfa6ff2b158fddf17118921003261-480-0.png",
+          "quantity": 1
+        }
+      ],
+      "date": "2024-06-20T16:00:17.716Z",
+      "buyerId": 4,
+      "createdAt": 1718899217721,
+      "modifiedAt": 1718899217721,
+      "id": 5
+    }
+  ],
+  "purchase": [
+    {
+      "name": "Termo Club Atletico River Gey",
+      "description": "Mudomental",
+      "quantity": 1,
+      "price": 40000,
+      "userId": 4,
+      "createdAt": 1718899217757,
+      "modifiedAt": 1718899217757,
+      "id": 1
+    }
+  ]
 }
