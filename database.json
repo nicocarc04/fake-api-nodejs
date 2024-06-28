@@ -1,6 +1,5 @@
 {
   "protectedResources": {
-    "users": [],
     "products": []
   },
   "users": [
@@ -12,13 +11,12 @@
       "userType": "sysAdmin"
     },
     {
+      "id": 9,
       "username": "Nico",
       "userType": "seller",
       "email": "nico@gmail.com",
       "password": "NICOLAS",
-      "createdAt": 1719086917600,
-      "modifiedAt": 1719086917600,
-      "id": 9
+      "modifiedAt": 1719438036673
     },
     {
       "username": "Santi",
@@ -48,7 +46,7 @@
       "image": "https://mateselcamino.com.ar/wp-content/uploads/2023/12/Mate-Imperial-Virola-de-Alpca-Lisa-Negro-1.webp",
       "sellerId": 9,
       "createdAt": 1719251277563,
-      "modifiedAt": 1719252697681,
+      "modifiedAt": 1719509691576,
       "id": 1
     },
     {
@@ -76,12 +74,12 @@
     {
       "category": "Mates",
       "name": "MATE DE ALGARROBO",
-      "description": "MATE DE ALGARROBO TIPO CAMIONERO BASE COPITA PREMIUM",
-      "price": 25000,
+      "description": "MATE DE ALGARROBO TIPO CAMIONERO BASE COPITA PREMIUM ",
+      "price": 20000,
       "image": "https://http2.mlstatic.com/D_NQ_NP_760085-MLA70265020509_072023-O.webp",
       "sellerId": 9,
       "createdAt": 1719251529975,
-      "modifiedAt": 1719252631383,
+      "modifiedAt": 1719438100898,
       "id": 4
     },
     {
@@ -121,11 +119,11 @@
       "category": "Bombillas",
       "name": "BOMBILLA HEXAGONAL CORTA",
       "description": "BOMBILLA DE BRONCE HEXAGONAL",
-      "price": 3500,
+      "price": 3600,
       "image": "https://crearsoluciones.com.ar/1666-home_default/blister-verde-de-bombillas-economicas.jpg",
       "sellerId": 9,
       "createdAt": 1719252484171,
-      "modifiedAt": 1719252484171,
+      "modifiedAt": 1719439824957,
       "id": 8
     },
     {
@@ -218,6 +216,167 @@
     }
   ],
   "cart": [],
-  "order": [],
-  "purchase": []
+  "order": [
+    {
+      "items": [
+        {
+          "category": "Mates",
+          "name": "MATE IMPERIAL",
+          "description": "MATE IMPERIAL DE CALABAZA PREMIUM",
+          "price": 50000,
+          "image": "https://mateselcamino.com.ar/wp-content/uploads/2023/12/Mate-Imperial-Virola-de-Alpca-Lisa-Negro-1.webp",
+          "sellerId": 9,
+          "createdAt": 1719251277563,
+          "modifiedAt": 1719252697681,
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "category": "Materas",
+          "name": "BOLSO MATERO",
+          "description": "BOLSO MATERO DE CUERO PREMIUM",
+          "price": 25000,
+          "image": "https://apolomates.com.ar/wp-content/uploads/2021/11/bolsillo-negro-e1636825443645.png",
+          "sellerId": 11,
+          "createdAt": 1719253570451,
+          "modifiedAt": 1719253570451,
+          "id": 14,
+          "quantity": 1
+        }
+      ],
+      "date": "2024-06-26T21:53:28.518Z",
+      "buyerId": 10,
+      "createdAt": 1719438808522,
+      "modifiedAt": 1719438808522,
+      "id": 1
+    },
+    {
+      "items": [
+        {
+          "category": "Mates",
+          "name": "MATE CAMIONERO",
+          "description": "MATE CAMIONERO PREMIUM CON VIROLA DE ACERO INOXIDABLE",
+          "price": 45000,
+          "image": "https://www.matespalocruz.com.ar/media/productos/M1.png",
+          "sellerId": 9,
+          "createdAt": 1719251417734,
+          "modifiedAt": 1719252595504,
+          "id": 3,
+          "quantity": 2
+        }
+      ],
+      "date": "2024-06-26T22:13:49.266Z",
+      "buyerId": 10,
+      "createdAt": 1719440029271,
+      "modifiedAt": 1719440029271,
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "category": "Mates",
+          "name": "MATE TORPEDO",
+          "description": "MATE TORPEDO URUGUAYO VIROLA DE ALUMINIO",
+          "price": 40000,
+          "image": "https://www.matespalocruz.com.ar/media/productos/M3.png",
+          "sellerId": 9,
+          "createdAt": 1719251355714,
+          "modifiedAt": 1719251355714,
+          "id": 2,
+          "quantity": 1
+        },
+        {
+          "category": "Mates",
+          "name": "MATE IMPERIAL",
+          "description": "MATE IMPERIAL DE CALABAZA PREMIUM",
+          "price": 50000,
+          "image": "https://mateselcamino.com.ar/wp-content/uploads/2023/12/Mate-Imperial-Virola-de-Alpca-Lisa-Negro-1.webp",
+          "sellerId": 9,
+          "createdAt": 1719251277563,
+          "modifiedAt": 1719439819833,
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "category": "Mates",
+          "name": "MATE CAMIONERO",
+          "description": "MATE CAMIONERO PREMIUM CON VIROLA DE ACERO INOXIDABLE",
+          "price": 45000,
+          "image": "https://www.matespalocruz.com.ar/media/productos/M1.png",
+          "sellerId": 9,
+          "createdAt": 1719251417734,
+          "modifiedAt": 1719252595504,
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "date": "2024-06-27T17:33:36.838Z",
+      "buyerId": 10,
+      "createdAt": 1719509616842,
+      "modifiedAt": 1719509616842,
+      "id": 3
+    }
+  ],
+  "purchase": [
+    {
+      "name": "MATE IMPERIAL",
+      "description": "MATE IMPERIAL DE CALABAZA PREMIUM",
+      "quantity": 1,
+      "price": 50000,
+      "userId": 10,
+      "createdAt": 1719438808560,
+      "modifiedAt": 1719438808560,
+      "id": 1
+    },
+    {
+      "name": "BOLSO MATERO",
+      "description": "BOLSO MATERO DE CUERO PREMIUM",
+      "quantity": 1,
+      "price": 25000,
+      "userId": 10,
+      "createdAt": 1719438808588,
+      "modifiedAt": 1719438808588,
+      "id": 2
+    },
+    {
+      "name": "MATE CAMIONERO",
+      "description": "MATE CAMIONERO PREMIUM CON VIROLA DE ACERO INOXIDABLE",
+      "quantity": 2,
+      "price": 45000,
+      "userId": 10,
+      "createdAt": 1719440029308,
+      "modifiedAt": 1719440029308,
+      "id": 3
+    },
+    {
+      "name": "MATE TORPEDO",
+      "description": "MATE TORPEDO URUGUAYO VIROLA DE ALUMINIO",
+      "quantity": 1,
+      "price": 40000,
+      "userId": 10,
+      "createdAt": 1719509616878,
+      "modifiedAt": 1719509616878,
+      "id": 4
+    },
+    {
+      "name": "MATE IMPERIAL",
+      "description": "MATE IMPERIAL DE CALABAZA PREMIUM",
+      "quantity": 1,
+      "price": 50000,
+      "userId": 10,
+      "createdAt": 1719509616905,
+      "modifiedAt": 1719509616905,
+      "id": 5
+    },
+    {
+      "name": "MATE CAMIONERO",
+      "description": "MATE CAMIONERO PREMIUM CON VIROLA DE ACERO INOXIDABLE",
+      "quantity": 1,
+      "price": 45000,
+      "userId": 10,
+      "createdAt": 1719509616936,
+      "modifiedAt": 1719509616936,
+      "id": 6
+    }
+  ]
 }

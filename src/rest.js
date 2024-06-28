@@ -85,7 +85,7 @@ export const registerHandler = (db, req, res) => {
 
   if (existUsername) {
     res.status(400).jsonp({
-      message: 'The username already exists. Please use a different username!',
+      message: 'El usuario ingresado esta en uso. Ingrese uno diferente por favor!',
     });
     return;
   }
@@ -94,7 +94,7 @@ export const registerHandler = (db, req, res) => {
 
   if (existEmail) {
     res.status(400).jsonp({
-      message: 'The email address is already being used! Please use a different email!',
+      message: 'La direccion de correo electronico ingresado esta en uso. Ingrese uno diferente por favor!',
     });
     return;
   }
